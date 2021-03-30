@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Code - Contato</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body class='color-pag'>
+    <div class="container-principal" id="topo">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imagem/logo.png" alt="logo site">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#topo">Contato</li>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class='img-titulo'><img src="imagem/contato.png" alt="imagem de contato"></div>
+
+        <selection id="txt-contato">
+            <form name="meu_form" id="meu_form">
+                <p class="nome">
+                    <label for="nome">Nome:</label><br>
+                 <input type="text" id="nomeid" placeholder="Ex: Lucas Saraiva" required="required" name="nome"/>   
+                </p>
+                <p class="fone">
+                    <label for="fone">Fone:</label><br>
+                    <input type="text" id="foneid" placeholder="Ex: (11) 99999 9999" required="required" name="fone"/> 
+                </p>
+                <p>
+                    <label for="e-mail">E-mail:</label><br>
+                    <input type="text" id="e-mailid" placeholder="Ex: lucas@gmail.com" required="required" name="e-mail"/> 
+                </p>
+                <p>
+                    <textarea placeholder="Mensagem..." required="required"></textarea>
+                </p>
+                <button type="submit" form="meu_form">Enviar</button>
+
+            </form>
+
+            <div id="conta-data">
+                <h4>Lucas Monstro</h4>
+                <h5><img src="imagem/icoadress.png" alt="endereço"><br>Avenida Novos Conhecimentos n:</h5>
+                <h5><img src="imagem/icoTelefone.png" alt="telefone"><br>+55 11 99999-99999</h5>
+                <h5><img src="imagem/icoTelefone.png" alt="e-mail"><br>contato@lucas.com.br</h5>
+                <h5><img src="imagem/icoface.png" alt="facebook"><br>facebook.com/lucas</h5>
+                <h5><img src="imagem/icoinsta.png" alt="instagram"><br>@_luuucax</h5>
+            </div>
+        </selection>
+    </div>
+    <a class="whatsapp-link" href="http://web.whatsapp.com/send?phone=5511976522328" target="_balnk">
+        <i class="fa fa-whatsapp"></i>  
+
+</body>
+</html>        
